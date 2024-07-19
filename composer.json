@@ -1,13 +1,13 @@
 {
-    "name": "turquoise/sylius-paybright-plugin",
+    "name": "eckinox/sylius-paybright-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
     "description": "PayBright plugin for Sylius.",
     "license": "MIT",
     "require": {
-        "php": "^7.3",
-        "sylius/sylius": "^1.8",
-        "symfony/http-client": "^5.2"
+        "php": ">=8.2",
+        "sylius/sylius": "1.12.*",
+        "symfony/http-client": "^5.4"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
